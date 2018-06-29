@@ -67,15 +67,15 @@
 	#mainpool {		
 		position: relative;		
 		text-align: center;
-		margin: auto;
+		display: table;
+		margin: 0 auto;
 		padding: 0px;
 		top: 200px;
 		width: 400px;		
 		max-width: 30%;
-		clear: both;
-		float: all;
+		clear: both;		
 		animation: mainentry;
-		animation-duration: 2s;
+		animation-duration: 2s;	
 	}
 
 	
