@@ -1,5 +1,5 @@
 
-	html, body {margin: 0; height: 100%; overflow: hidden}
+	html, body {margin: 0; height: 100%; overflow: hidden;}
 
 	@font-face {font-family: Sensei; src:url(sensei.ttf);}
 
@@ -16,7 +16,18 @@
 		font-family: 'Didact Gothic', sans-serif;
 	}
       
+
+	@media only screen and (max-width: 768px) {
+		html, body {height: auto; overflow: scroll;}
+	}
+
+
+
+
 /*        MAIN SECTION       ///////          //////              ///////          //////////           /////////        ///////// */
+
+
+
 
 
 	#topbar {
