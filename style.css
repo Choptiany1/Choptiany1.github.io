@@ -48,6 +48,11 @@
 		}
 
 
+		@keyframes mainentry {
+			from{top: 600px;}
+			to{top: 200px;}
+		}
+
 	#mainpool {		
 		position: relative;		
 		text-align: center;
@@ -58,6 +63,8 @@
 		max-width: 30%;
 		clear: both;
 		float: all;
+		animation: mainentry;
+		animation-duration: 2s;
 	}
 
 	
