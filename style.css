@@ -17,8 +17,8 @@
 	}
       
 
-	@media only screen and (max-width: 768px) {
-		html, body {height: auto; overflow: scroll;}
+	@media only screen and (max-width: 1300px) {
+		html, body {margin: auto; height: auto; overflow: scroll;}
 	}
 
 
