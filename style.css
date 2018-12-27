@@ -190,3 +190,16 @@
 					position: fixed;
 					bottom: 0px;
 					right: 10px;									}
+
+
+				#shorts {
+					text-align: center;					
+					margin: 0 auto;
+					
+				}
+
+				#shorts td {
+					border: 1px solid black;
+					margin: 2px;
+					padding: 10px;
+				}
